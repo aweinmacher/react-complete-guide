@@ -1,4 +1,4 @@
-import ExpenseDate from './ExpenseDate'
+import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 import "./ExpenseItem.css";
 
@@ -12,6 +12,6 @@ const ExpenseItem = ({ date, title, amount }) => {
       </div>
     </Card>
   );
-}
+};
 
 export default ExpenseItem;
